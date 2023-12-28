@@ -1,6 +1,8 @@
-const serverConfig = require("./server-config");
-const logger = require("./logger-config");
+const ServerConfig = require("./server-config");
+const Logger = require("./logger-config");
+const Mailer=require("./email-config")
 module.exports={
-    serverConfig,
-    logger
+    ServerConfig,
+    Logger,
+    Mailer
 }

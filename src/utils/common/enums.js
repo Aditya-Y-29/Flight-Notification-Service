@@ -1,18 +1,9 @@
-const SEAT_TYPE={
-    ECONOMY: 'economy',
-    BUISNESS: 'buisness',
-    PREMIUM_ECONOMY: 'premium-economy',
-    FIRST_CLASS: 'first-class'
-}
-
-const BOOKING_STATUS={
-    BOOKED: 'booked',
-    CANCELLED: 'cancelled',
-    INITIATED: 'initiated',
-    PENDING: 'pending'
+const TICKET_STATUS={
+    PENDING: 'pending',
+    FAILED: 'failed',
+    SUCCESS: 'success'
 }
 
 module.exports={
-    SEAT_TYPE,
-    BOOKING_STATUS
+    TICKET_STATUS
 }

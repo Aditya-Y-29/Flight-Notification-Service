@@ -7,4 +7,6 @@ dotenv.config({path: envPath})
 
 module.exports={
     PORT: process.env.PORT,
+    MAIL_PASSWORD: process.env.MAIL_PASSWORD,
+    MAIL_ADDRESS: process.env.MAIL_ADDRESS
 }
